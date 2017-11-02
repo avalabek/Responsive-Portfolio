@@ -286,5 +286,20 @@ input.submit{
 	border-top:5px solid #4aaaa5;
 }
 
+@media screen and (min-width:0px) and (max-width:640px){
+	.mainBody{
+		background-color:blue;
+	}
+}
+@media screen and (min-width:641px) and (max-width:768px){
+	.mainBody{
+		background-color:green;
+	}
+}
+@media screen and (min-width:769px) and (max-width:980px){
+	.mainBody{
+		background-color:yellow;
+	}
+}
 
 	
