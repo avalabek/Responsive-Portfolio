@@ -285,7 +285,7 @@ input.submit{
 	clear:both;
 	border-top:5px solid #4aaaa5;
 }
-
+/*media query 640 max----------------------*/
 @media screen and (max-width:640px){
 	li {
     clear:both;
@@ -312,25 +312,70 @@ li a {
  .mainBody{
 	
 	margin-right:0px;
-	margin-left:110px;
-	margin-top:50px;
+	margin-left:30px;
+	margin-top:0px;
 	margin-bottom:50px;
 
 }
-
-
-
+textarea {
+	margin-left:0px;
+	padding:20px 0px;
+	padding-right:100px;
 
 }
+	
+}
+/*banners over images----------------*/
+.banner {
+  font-size:16px;
+  font-family: "Georgia","Times", "Times New Roman",serif;
+  background-color: #4aaaa5 ;
+  color: white;
+  text-align: center;
+  box-sizing:border-box;
+  width: 240px;
+  padding:15px;
+}
+  #hangman{
+  margin-left:0px;
+  position:absolute;
+  top:525px;
+  left:105px;	
+}
+#rpg{
+  margin-left:10px;
+  position:absolute;
+  top:525px;
+  left:334.5px;	
+}
+#rutgers{
+  margin-left:10px;
+  position:absolute;
+  top:678px;
+  left:334.5px;	
+}
+#trivia{
+  margin-left:120px;
+  position:absolute;
+  top:677px;
+  left:-15px;	
+}
+#rock{
+  margin-left:120px;
+  position:absolute;
+  top:831px;
+  left:-14px;	
+}
+}
+/*end 640 section keep this curly brace above*/
 
-
-
+/*start 641 to 768 page*/
 @media screen and (min-width:641px) and (max-width:768px){
 	.mainBody{
 		background-color:green;
 	}
 }
-
+/*start 769 to 980--but wait isn't that just normal css*/
 @media screen and (min-width:769px) and (max-width:980px){
 	.mainBody{
 		background-color:pink;
