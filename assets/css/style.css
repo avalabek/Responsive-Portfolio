@@ -2,7 +2,7 @@ style.css
 * {
 	margin:0px;
 	padding:0;
-	width:960px;
+	width:100%;
 	color:#777777;
 }
 header{
@@ -286,20 +286,53 @@ input.submit{
 	border-top:5px solid #4aaaa5;
 }
 
-@media screen and (min-width:0px) and (max-width:640px){
-	.mainBody{
-		background-color:blue;
-	}
+@media screen and (max-width:640px){
+	li {
+    clear:both;
 }
+
+li a {
+	clear:both;
+     margin-right:0px;
+    padding-right:160px;
+}
+
+#contact {
+	padding-right:160px;
+}
+
+.sidebar {
+	clear:both;
+	width:230px;
+	margin-left:100%;
+	margin-top:50px;
+	margin-right:0px;
+	}
+
+ .mainBody{
+	
+	margin-right:0px;
+	margin-left:110px;
+	margin-top:50px;
+	margin-bottom:50px;
+
+}
+
+
+
+
+}
+
+
+
 @media screen and (min-width:641px) and (max-width:768px){
 	.mainBody{
 		background-color:green;
 	}
 }
+
 @media screen and (min-width:769px) and (max-width:980px){
 	.mainBody{
-		background-color:yellow;
+		background-color:pink;
 	}
-}
-
-	
+	}
