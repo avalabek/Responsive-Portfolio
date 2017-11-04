@@ -366,14 +366,56 @@ textarea {
   top:831px;
   left:-14px;	
 }
-}
+
 /*end 640 section keep this curly brace above*/
 
-/*start 641 to 768 page*/
-@media screen and (min-width:641px) and (max-width:768px){
-	.mainBody{
-		background-color:green;
+/*start 768 page*/
+@media only screen and (min-width : 768px) {
+ 
+	li a{
+		clear:both;
+		margin-left:10px;
+		text-align:right;
+		padding:0px;
+		display: block;
+    	text-align: center;
+    	color:#666666;
+    	padding: 14px 5px 14px 0px;
+    	text-decoration: none;
+    	margin-right:0px;
 	}
+#name {
+	clear:both;
+	padding: 14px 8px 14px 0;
+	margin-left:30px;
+}
+.mainBody {
+	width:75%;
+}	
+.sidebar{
+	margin-right:81px;
+
+}
+#hangman{
+	top:438px;
+	left:185px;
+}
+#rpg {
+	top:438px;
+	left:382.5px;
+}
+#trivia {
+	top:590px;
+	left:65px;
+}
+#rutgers {
+	top:590px;
+	left:382.5px;
+}
+#rock {
+	top:745px;
+	left:66px;
+}	
 }
 /*start 769 to 980--but wait isn't that just normal css*/
 @media screen and (min-width:769px) and (max-width:980px){
